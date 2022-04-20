@@ -1,0 +1,30 @@
+package Study;
+
+
+	// Online Java Compiler
+	// Use this editor to write, compile and run your Java code online
+
+	// Online Java Compiler
+	// Use this editor to write, compile and run your Java code online
+
+	
+	public class B{
+		void compare() {
+	int a[]= {10,20,30,40};
+	int b[]= {60,70,40,100,10};
+	for(int i=0;i<a.length;i++) {
+		for(int j=0;j<b.length;j++) {
+			if(a[i]==b[j])
+				System.out.println(a[i]);
+		}
+	}
+	}
+
+	    public static void main(String[] args) {
+	      B b=new B();
+	      b.compare();
+	    }
+	
+	}
+	
+

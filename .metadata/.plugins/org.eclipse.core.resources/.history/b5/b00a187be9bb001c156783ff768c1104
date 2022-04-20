@@ -1,0 +1,31 @@
+package Study;
+
+public class Test {
+    void replaceVowels(String a) {
+		
+		char b[]=a.toCharArray();
+		for(int i=0;i<b.length;i++) {
+			if(b[i]=='a'||b[i]=='e'||b[i]=='i'||b[i]=='o'||b[i]=='u')
+				b[i]='a';
+			System.out.print(b[i]+" ");
+		}
+
+		
+	}
+    int minmax(int a[]) {
+		int min=a[0];
+		for(int i=1;i<a.length;i++) {
+			if(a[i]<min)
+				min=a[i];
+		}
+		return min;
+	}
+    public static void main(String[] args) {
+		Test t=new Test();
+		int  b[]= {10,20,30,40,6,9,1};
+		System.out.println(t.minmax(b));
+//		String b = "Bangalore";
+//		t.replaceVowels(b);
+	}
+
+}

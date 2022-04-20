@@ -1,0 +1,23 @@
+package Study;
+
+import java.util.*;
+
+public class A  {
+	
+//	public void run() {
+//		System.out.println("New Thread is started");
+//	}
+	
+	public static void main(String[] args) {
+	List<Integer> list = new ArrayList<>();
+	List<Integer> list2 = new LinkedList<>();
+	list2.add(66);
+	list2.add(55);
+	list.add(61);
+	list.remove(0);
+	System.out.println(list2.get(0));
+	
+	}
+	
+
+}

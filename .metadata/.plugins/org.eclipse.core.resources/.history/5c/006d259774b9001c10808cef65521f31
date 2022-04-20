@@ -1,0 +1,14 @@
+package Study;
+
+public class demo5 {
+	public static int sum(int a,int b) {
+		return a+b;
+	}
+	public static void main(String[] args) {
+		//System.out.println("Welcome to zee");
+		sum(5, 6);
+	
+}
+}
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="parent"/>
+    <fullyQualifiedTypeName name="javax.net.ssl.HostnameVerifier"/>
+    <fullyQualifiedTypeName name="Parent"/>
+    <fullyQualifiedTypeName name="Study.Parent"/>
+    <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="javax.print.event.PrintJobAttributeEvent"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="Study.Developer"/>
+    <fullyQualifiedTypeName name="Study.Prog"/>
+    <fullyQualifiedTypeName name="Study.BookClass"/>
+    <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+    <fullyQualifiedTypeName name="Study.Employee"/>
+    <fullyQualifiedTypeName name="Study.Child"/>
+    <fullyQualifiedTypeName name="Study.Threadd"/>
+    <fullyQualifiedTypeName name="java.util.IllegalFormatCodePointException"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ScheduledThreadPoolExecutor"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Study.RunnableThread"/>
+    <fullyQualifiedTypeName name="Study.Demo1"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Study2.P"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="Study2.A_Threading"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+</qualifiedTypeNameHistroy>

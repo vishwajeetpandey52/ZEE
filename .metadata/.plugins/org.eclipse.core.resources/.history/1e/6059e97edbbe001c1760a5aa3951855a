@@ -1,0 +1,30 @@
+package Study2;
+import Study.*;
+
+class D{
+	void disp() {
+		System.out.println("B class");
+		//System.out.println(a);
+		//System.out.println(b);
+		//System.out.println(c);
+		//System.out.println(d);
+	}
+}
+class E extends Demo1{
+	void disp() {
+		System.out.println(a);
+		//System.out.println(b);
+		System.out.println(c);
+		//System.out.println(d);
+	}
+}
+class F{
+	
+}
+public class Demo2 {
+	public static void main(String[] args) {
+		D d=new D();
+		d.disp();
+	}
+
+}

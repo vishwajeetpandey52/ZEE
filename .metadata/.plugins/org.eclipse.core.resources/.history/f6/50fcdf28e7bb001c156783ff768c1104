@@ -1,0 +1,21 @@
+package Study;
+
+public class Test {
+    void replaceVowels(String a) {
+		
+		char b[]=a.toCharArray();
+		for(int i=0;i<b.length;i++) {
+			if(b[i]=='a'||b[i]=='e'||b[i]=='i'||b[i]=='o'||b[i]=='u')
+				b[i]='a';
+			System.out.print(b[i]+" ");
+		}
+
+		
+	}
+    public static void main(String[] args) {
+		Test t=new Test();
+		String b = "Bangalore";
+		t.replaceVowels(b);
+	}
+
+}

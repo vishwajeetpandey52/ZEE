@@ -1,0 +1,19 @@
+package Study;
+
+public class A extends Thread {
+	
+	public void run() {
+		System.out.println("New Thread is started");
+	}
+	
+	public static void main(String[] args) {
+		
+		System.out.println("welcome");
+		
+		A tt = new A();
+		tt.start();
+		
+	}
+	
+
+}

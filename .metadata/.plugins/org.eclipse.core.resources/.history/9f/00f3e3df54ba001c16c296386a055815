@@ -1,0 +1,16 @@
+package Study;
+
+public class Threadd extends Thread {
+	
+	public void run() {
+		System.out.println("New Thread is started");
+	}
+	
+	public static void main(String[] args) {
+		
+		System.out.println("welcome");
+		
+	}
+	
+
+}

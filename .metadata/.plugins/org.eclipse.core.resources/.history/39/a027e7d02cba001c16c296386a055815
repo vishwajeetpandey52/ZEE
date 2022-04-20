@@ -1,0 +1,29 @@
+package Study;
+
+
+	// Online Java Compiler
+	// Use this editor to write, compile and run your Java code online
+
+	// Online Java Compiler
+	// Use this editor to write, compile and run your Java code online
+
+	
+	public class B extends A{
+	   void func(){
+	        int a=1000;
+	        System.out.println(); 
+	    }
+
+	    public static void main(String[] args) {
+	        A a=new A();
+	        A a1=new B();
+	       // B b=new A();
+	        B b1=new B();
+	        System.out.println(a.a);
+	        System.out.println(a1.a); 
+	        //System.out.println(b.a); 
+	        System.out.println(b1.a); 
+	    }
+	
+	}
+

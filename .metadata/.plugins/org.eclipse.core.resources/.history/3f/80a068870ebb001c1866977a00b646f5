@@ -1,0 +1,19 @@
+package Study;
+
+public class A  {
+	
+//	public void run() {
+//		System.out.println("New Thread is started");
+//	}
+	
+	public static void main(String[] args) {
+		int a[]= {1,2,3};
+		System.out.println(a[4]);
+		finally {
+			System.out.println(a[4]);
+		}
+		
+	}
+	
+
+}

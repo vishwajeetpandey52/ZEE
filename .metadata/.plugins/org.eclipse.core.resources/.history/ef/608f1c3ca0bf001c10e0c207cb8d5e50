@@ -1,0 +1,56 @@
+package Study2;
+
+import java.util.*;
+//class A extends Thread{
+//	public void run() {
+//		try {
+//			int i,j=1,k=1;;
+//			for( i=0;i<=10000;i++) {
+//				if(i==60) j++;
+//				for(j=1;j<=60;j++)
+//					k++;
+//				//System.out.println("I : "+i);
+//				Thread.sleep(1000);
+//			}
+//		}
+//		catch(Exception e) {
+//			
+//		}
+//	}
+//
+//}
+//class B extends Thread{
+//	public void run() {
+//		try {
+//			for( j=0;j<=10000;j++) {
+//				if(j==60) 
+//			}
+//		}
+//		catch(Exception e) {
+//			
+//		}
+//	}
+//
+//}
+class A_Threading {
+	public static void main(String[] args) throws InterruptedException {
+	      Calendar rightNow;
+	        int hour, minute, second;
+	        String time = "";
+	        while(true){
+	            rightNow = Calendar.getInstance( );
+	            hour = rightNow.get( Calendar.HOUR );
+	            minute = rightNow.get( Calendar.MINUTE );
+	            second = rightNow.get( Calendar.SECOND );
+	            time = ( hour >= 10 ? hour : "0" + hour ) + ":";
+	            time += ( minute >= 10 ? minute : "0" + minute ) + ":";
+	            time += ( second >= 10 ? second : "0" + second );
+	            System.out.print( time );
+	            Thread.sleep( 1000 );
+	            System.out.print( "\b\b\b\b\b\b\b\b" );
+	        }
+	    }
+		
+		
+	
+}

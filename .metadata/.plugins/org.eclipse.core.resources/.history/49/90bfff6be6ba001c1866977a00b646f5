@@ -1,0 +1,18 @@
+package Study;
+
+public class Array {
+	void arrayinsert(int a[]) {
+		//a[0]=0;
+		for(int i=1;i<11;i++) {
+			
+			a[i]=i*10;
+			System.out.println(a[i]);
+		}
+	}
+	public static void main(String[] args) {
+		int b[]=new int[11];
+		Array array=new Array();
+		array.arrayinsert(b);
+	}
+
+}
